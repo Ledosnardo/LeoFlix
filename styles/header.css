@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.cabecalho__logo{
+    width: 200px;
+}
+
+.cabecalho__btn{
+    font-size: 15px;
+    margin-left: 30px;
+    background: var(--red-color);
+    color: var(--white-color);
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+.cabecalho__label{
+    display:none;
+}
+.cabecalho__idioma{
+    font-size: 15px;
+    color: var(--white-color);
+    background: transparent;
+    border: 1px solid var(--white-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
