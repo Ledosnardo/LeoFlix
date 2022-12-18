@@ -10,6 +10,11 @@
     margin: 20px 0 0 50px;
 }
 
+.cabecalho__right{
+    display: flex;
+    height: 35px;
+    margin: 20px 20px 0 0;
+}
 .cabecalho__btn{
     font-size: 15px;
     margin: 0 30px;
@@ -19,14 +24,22 @@
     border-radius: 5px;
 }
 
-.cabecalho__label{
-    display:none;
+.cabecalho__linguagem{
+    display: flex;
+    border: 2px solid var(--white-color);
+    border-radius: 5px;
+}
+
+.cabecalho__globo{
+    width: 30px;
+    background: rgba(0,0,0, 0.5);
 }
 .cabecalho__idioma{
     font-size: 15px;
     color: var(--white-color);
     background: rgba(0,0,0, 0.5);
-    border: 1px solid var(--white-color);
-    padding: 8px 16px;
-    border-radius: 5px;
+    padding: 0 6px;
 }
+
+
+

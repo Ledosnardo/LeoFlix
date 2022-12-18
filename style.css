@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import "Styles/header.css";
+@import "styles/containers.css";
 
 :root{
     --bg-color: #333;
     --red-color: #e50914;
     --white-color: #fff;
+    --black-color: black;
     --font:'Ubuntu', sans-serif;
 }
 
@@ -18,7 +20,7 @@ body{
     background: url(images/background.png) no-repeat;
 }
 
-.first__container{
+.first__texts{
     min-height: 110vh;
     display: flex;
     flex-direction: column;

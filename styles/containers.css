@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 80px 70px 50px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
+.container__image{
+    margin-left: 50px;
+}
+
+.container__content{
+    margin-left: 50px;
+    padding: 0 20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.container__content-title{
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.container__content-text{
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-top: 1em;
+}
