@@ -15,7 +15,11 @@ body{
 }
 
 .first__section{
-    min-height: 80vh;
+    background: url(images/background.png) no-repeat;
+}
+
+.first__container{
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +36,7 @@ body{
 .first__text{
     text-align: center;
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--white-color);
     margin: 30px;
 }
