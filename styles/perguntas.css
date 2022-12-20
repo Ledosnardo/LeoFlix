@@ -44,7 +44,6 @@
     padding: 30px;
     background-color: var(--bg-color);
     font-size: 1.6em;
-    transition: .5s;
 }
 
 .ativo{
