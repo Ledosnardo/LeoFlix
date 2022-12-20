@@ -1,5 +1,5 @@
 const pergunta = document.querySelector("[data-pergunta]");
-const textos = document.querySelectorAll("[data-texto]");
+const respostas = document.querySelectorAll("[data-texto]");
 
 pergunta.addEventListener("click", (e) => {
     const texto = e.path[2].children[1];
@@ -9,10 +9,9 @@ pergunta.addEventListener("click", (e) => {
         classeTexto.remove("ativo");
 
     } else{
-        for(i = 0; i < textos.length; i++){
-            textos[i].classList.remove("ativo");
+        for(let i = 0; i < respostas.length; i++){
+            respostas[i].classList.remove("ativo");
         }
-
-        classeTexto.toggle("ativo");
+        classeTexto.add("ativo");
     }
 });
