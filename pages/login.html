@@ -19,15 +19,17 @@
             <h2 class="login__titulo">Entrar</h2>
             <form class="login__form">
                 <div class="nome">
-                    <input type="text" id="input__nome" class="input__login" placeholder="Digite o seu nome">
+                    <input type="text" id="input__nome" class="input__login" placeholder="Digite o seu nome" data-input="nome">
                     <label for="input__nome" class="label__input">Nome:</label>
+                    <p class="mensagem__erro" data-mensagem-erro></p>
                 </div>
                 <div class="senha">
-                    <input type="password" id="input__senha" class="input__login" placeholder="Digite a sua senha">
+                    <input type="password" id="input__senha" class="input__login" placeholder="Digite a sua senha" data-input="senha">
                     <label for="input__senha" class="label__input">Senha:</label>
+                    <p class="mensagem__erro" data-mensagem-erro></p>
                 </div>
                 
-                <button type="submit" class="login__btn">Entrar</button>
+                <input type="submit" class="login__btn" data-btn-entrar>Entrar</input>
 
                 <div class="login__check">
                     <div class="login__lembre-se">
@@ -49,5 +51,7 @@
         <p>Espero que tenham achado legal esta parodia da Netflix.</p>
         <p>Tentarei melhorar e atualizar o código.</p>
     </footer>
+
+    <script src="../app/login.js"></script>
 </body>
 </html>
