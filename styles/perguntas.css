@@ -27,13 +27,19 @@
     padding: 27px;
 }
 
-.perguntas__text, .perguntas__btn{
+.perguntas__text{
     font-size: 1.6em;
     font-weight: 300;
     margin: 0 20px;
 }
 
-.perguntas__btn:hover{
+.perguntas__btn{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-right: 1.2em;
+}
+
+.perguntas__btn:hover, .perguntas__text:hover{
     cursor: pointer;
 }
 

@@ -1,0 +1,140 @@
+@import "../style.css";
+
+body{
+    background: url("../images/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.cabecalho__login {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho__logo{
+    width: 150px;
+    margin: 20px 0 0 50px;
+}
+
+
+.section__login{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container__login{
+    background: var(--bg-black);
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 70px;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.login__titulo{
+    color: var(--white-color);
+    font-size: 2em;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input__login{
+    width: 100%;
+    margin: 8px 0;
+    padding: 18px;
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    border:none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input__login::placeholder{
+    color: var(--bg-color);
+}
+
+.label__input{
+    position:absolute;
+    color: var(--white-color);
+    transform: translateY(27px) translateX(-310px);
+    transition: .10s;
+}
+
+.input__login:focus + label{
+    transform: translateY(15px) translateX(-320px);
+    font-size: .7em;
+}
+
+.input__login:not(:placeholder-shown) + label{
+    transform: translateY(15px) translateX(-320px);
+    font-size: .7em;
+}
+
+.login__btn{
+    background-color: var(--red-color);
+    width: 100%;
+    padding: 15px 0;
+    margin: 30px 0 10px;
+    color: var(--white-color);
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.login__check{
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8em;
+    margin-bottom: 120px;
+}
+
+.login__lembre-se{
+    display: flex;
+    align-items: center;
+}
+
+.check__link:hover{
+    text-decoration: underline;
+}
+
+.login__footer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.login__footer-text{
+    color: var(--bg-color);
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.login__footer-link{
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.login__footer-link:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer_container{
+    background: var(--bg-black);
+}
+
