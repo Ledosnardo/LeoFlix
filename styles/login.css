@@ -68,17 +68,17 @@ body{
 .label__input{
     position:absolute;
     color: var(--white-color);
-    transform: translateY(27px) translateX(-310px);
+    transform: translateY(28px) translateX(-360px);
     transition: .10s;
 }
 
 .input__login:focus + label{
-    transform: translateY(15px) translateX(-320px);
+    transform: translateY(13px) translateX(-370px);
     font-size: .7em;
 }
 
 .input__login:not(:placeholder-shown) + label{
-    transform: translateY(15px) translateX(-320px);
+    transform: translateY(13px) translateX(-370px);
     font-size: .7em;
 }
 
@@ -139,3 +139,75 @@ body{
     background: var(--bg-black);
 }
 
+
+@media screen and (max-width: 1024px){
+    .container__login{
+        width: 50%;
+    }
+        
+    .input__login:focus + label{
+        transform: translateY(13px) translateX(-360px);
+        font-size: .7em;
+    }
+    
+    .input__login:not(:placeholder-shown) + label{
+        transform: translateY(13px) translateX(-360px);
+        font-size: .7em;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+
+    body{
+        background: black;
+    }
+
+
+    .cabecalho__logo{
+        width: 80px;
+        margin: 20px 0 0 10px;
+    }
+
+
+    .section__login{
+        justify-content: flex-start;
+    }
+
+    .container__login{
+        width: 100%;
+        padding: 0 30px;
+        border-bottom: 2px solid var(--bg-color);
+    }
+
+    .login__titulo{
+        margin-top: 0px;
+    }
+    
+    .label__input{
+        position:absolute;
+        color: var(--white-color);
+        transform: translateY(28px) translateX(-300px);
+        transition: .10s;
+    }
+    
+    .input__login:focus + label{
+        transform: translateY(13px) translateX(-300px);
+        font-size: .7em;
+    }
+    
+    .input__login:not(:placeholder-shown) + label{
+        transform: translateY(13px) translateX(-300px);
+        font-size: .7em;
+    }
+
+    .login__check{
+        margin: 10px;
+    }
+
+    .login__footer{
+        padding-left: 10px;
+        margin-bottom: 150px;
+    }
+}
