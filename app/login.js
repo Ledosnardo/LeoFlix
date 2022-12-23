@@ -21,10 +21,8 @@ entrarBtn.addEventListener("click", (e) => {
     // }
     else{
         localStorage.setItem("dados", JSON.stringify(form));
+        window.location.href = "../pages/perfis.html";
     }
-
-
-    // window.location.href = "../index.html";
 });
 
 

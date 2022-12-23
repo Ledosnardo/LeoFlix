@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container__login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0 300px;
+}
+
+.container__perfil{
+    text-align: center;
+}
+
+.container__perfil-img:hover{
+    transition: .10s;
+    border: 3px solid white;
+}
+
+.container__perfil-nome{
+    text-transform: uppercase;
+    margin: 10px;
+}

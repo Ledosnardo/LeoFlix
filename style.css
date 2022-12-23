@@ -2,6 +2,7 @@
 @import "Styles/header.css";
 @import "styles/containers.css";
 @import "styles/perguntas.css";
+@import "styles/perfil.css";
 
 :root{
     --bg-color: #333;
