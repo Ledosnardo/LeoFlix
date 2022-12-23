@@ -24,3 +24,18 @@ body{
     text-transform: uppercase;
     margin: 10px;
 }
+
+@media screen and (max-width: 1024px){
+    .container__login{
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container__login{
+        padding: 0 50px;
+    }
+    .container__perfil-nome{
+        margin: 5px;
+    }
+}
