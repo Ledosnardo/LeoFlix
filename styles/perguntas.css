@@ -55,3 +55,13 @@
 .ativo{
     display: block;
 }
+
+.btn__entrar{
+    background-color: var(--red-color);
+    margin: 20px;
+    padding: 20px 40px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
